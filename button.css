@@ -1,12 +1,16 @@
 body {
     display: flex;
+    background: #edeeef;
+    background: linear-gradient(#edeeef, white);
+    width: 100vw;
+    height: 100vh;
 }
 
 button {
     background-color: #327997 !important;
     border-color: #327997 !important;
     color: white !important;
-    /* display: block; */
+    display: block;
     font-weight: normal;
     text-align: center;
     white-space: nowrap;
@@ -26,6 +30,11 @@ button:hover {
 
 .main-container {
   margin: auto;
+  margin-top: 1rem;
+  background: white;
+  padding: 5rem;
+  border-radius: 2rem;
+  border: 1px solid rgba(0,0,0,0.2);
 }
 
 .counter-container {
