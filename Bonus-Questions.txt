@@ -1,0 +1,6 @@
+1 - When you first go to the regular http version the server returns a 301 status
+    response ("Moved Permanently"), and then redirects the user to the
+    secured https version of the site.
+
+2 - Let's Encrypt (letsencrypt.org) is the authority certificate issuer,
+    and Network Solutions is the domain registrar.
