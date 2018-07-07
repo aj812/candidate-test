@@ -10,7 +10,7 @@ button {
     background-color: #327997 !important;
     border-color: #327997 !important;
     color: white !important;
-    display: inline-block;
+    display: block;
     font-weight: normal;
     text-align: center;
     white-space: nowrap;
@@ -25,4 +25,14 @@ button {
 
 button:hover {
     background: linear-gradient(to top left, #327997, #c7d8e2);
+}
+
+.button-container {
+  margin-left: 40vw;
+}
+
+.counter-container {
+  text-align: center;
+  margin-top: 15vh;
+  margin-left: -12.5vw;
 }
