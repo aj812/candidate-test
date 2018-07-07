@@ -6,6 +6,7 @@
     <title>Button Project</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="./button.css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" />
     <script
         src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
@@ -14,16 +15,21 @@
     <script type="text/javascript" src="./button.js"></script>
 </head>
 <body>
-    <!-- Form isn't needed, but I kept it since form inputs could potentially be added -->
-    <div class="button-container">
-      <form id="mainform" action="http://truenorthinc.com">
-          <button id="button" type="button">Go to True North</button>
-      </form>
-    </div>
+    <div class="button-container col-md-12">
+      <div class="row">
+        <!-- Form isn't needed, but I kept it since form inputs could potentially be added -->
+        <form id="mainform" action="http://truenorthinc.com">
+            <button id="button" type="button">Go to True North</button>
+        </form>
+      </div>
 
-    <div class="counter-container">
-        <h3>Total Button Clicks:</h3>
-        <h1 class="click-counter"> </h1>
-    </div>
+      <div class="row">
+          <div class="counter-container mx-auto">
+            <hr/>
+            <h3>Total Button Clicks:</h3>
+            <h1 class="click-counter"></h1>
+        </div>
+      </div>
+  </div>
 </body>
 </html>
