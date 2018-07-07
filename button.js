@@ -1,5 +1,9 @@
-( function( $ ) {
-    // JQuery is not required. You can you vanilla (regular) JS as well
+$(document).ready(function(){
     'use strict';
-    
-})( jQuery );
+
+    // Button onClick function
+    $('#button').on('click', function() {
+      console.log('Test')
+    })
+
+});
