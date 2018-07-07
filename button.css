@@ -22,3 +22,7 @@ button {
     line-height: 1.5;
     border-radius: 0.25rem;
 }
+
+button:hover {
+    background: linear-gradient(to top left, #327997, #c7d8e2);
+}
