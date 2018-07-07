@@ -26,4 +26,10 @@ $(document).ready(function(){
       localStorage.setItem('clickCounter', newCounterValue);
     }
 
+    // Reset counter function
+    $('#reset').on('click', function() {
+        localStorage.setItem('clickCounter', 0);
+        $('.click-counter').text('0');
+    })
+
 });
