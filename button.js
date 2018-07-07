@@ -1,9 +1,9 @@
 $(document).ready(function(){
     'use strict';
 
-    // Button onClick function
+    // Button onClick function, redirects to True North Inc site
     $('#button').on('click', function() {
-      console.log('Test')
+        document.location.href = "http://truenorthinc.com";
     })
 
 });
