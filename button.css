@@ -2,15 +2,11 @@ body {
     display: flex;
 }
 
-form {
-    margin: auto;
-}
-
 button {
     background-color: #327997 !important;
     border-color: #327997 !important;
     color: white !important;
-    display: block;
+    /* display: block; */
     font-weight: normal;
     text-align: center;
     white-space: nowrap;
@@ -28,6 +24,10 @@ button:hover {
     background: linear-gradient(to top left, #327997, #c7d8e2);
 }
 
+.main-container {
+  margin: auto;
+}
+
 .counter-container {
   margin-top: 0.8rem;
   text-align: center;
@@ -35,4 +35,9 @@ button:hover {
 
 hr {
   background: black;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
 }
