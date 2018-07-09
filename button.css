@@ -33,7 +33,7 @@ button {
     margin-top: 1rem !important;
 }
 
-button:hover {
+#button:hover {
     background: linear-gradient(to top left, #327997, #c7d8e2);
 }
 
@@ -53,10 +53,16 @@ button:hover {
   font-size: 2.8rem;
 }
 
-.counter-container a {
+#reset {
   text-decoration: none;
   color: blue;
   font-size: 1.2rem;
+}
+
+#reset:hover {
+  background: lightblue;
+  padding: 0.2rem 1.5rem;
+  border-radius: 0.4rem;
 }
 
 hr {

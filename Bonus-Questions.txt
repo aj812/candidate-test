@@ -3,4 +3,4 @@
     secured https version of the site.
 
 2 - Let's Encrypt (letsencrypt.org) is the authority certificate issuer
-    (and Network Solutions is the domain registrar).
+    (also, Network Solutions is the domain registrar).
